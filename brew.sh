@@ -10,6 +10,5 @@ brew install git
 brew install zsh
 brew install emacs
 
-brew install node
-brew install flow
-
+brew install nvm
+brew install yarn --without-node

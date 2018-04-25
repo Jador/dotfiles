@@ -3,10 +3,4 @@
 	un = reset HEAD --
 	lg = log --graph --pretty=format:'%Cred%h%creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%<an>%Creset' --abbrev-commit --date=relative --all
 	prune = branch --merged $1 | grep -v $1 | xargs git branch -d
-	pn = prune master
-	pe = prune dev
-[user]
-	name = Tyler Graham
-	email = tyler.graham@eleadcrm.com
-[credential]
-	helper = osxkeychain
+	last = log -1 HEAD
