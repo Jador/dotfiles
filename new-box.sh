@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # Setup homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ./brew.sh
 ./brew-cask.sh
 
@@ -12,5 +11,5 @@ emacs --batch -l setup-emacs.el
 # Custom Options???
 ./setup-zsh.sh
 
-# Setup vscode
-code --install-extension the-graham-experience-0.0.1.vsix
+./node.sh
+./git.sh

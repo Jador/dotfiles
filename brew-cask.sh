@@ -1,13 +1,12 @@
 #!/bin/sh
 
-brew tap caskroom/cask
-brew tap caskroom/fonts
+brew tap homebrew/cask
+brew tap homebrew/cask-fonts
 
-brew cask install google-chrome
-brew cask install visual-studio-code
-brew cask install intellij-idea
-brew cask install iterm2
-brew cask install hyper
-brew cask install font-fira-code
-brew cask install docker
-brew cask install discord
+brew install --cask google-chrome
+brew install --cask visual-studio-code
+brew install --cask intellij-idea
+brew install --cask iterm2
+# brew install font-fira-code
+brew install --cask docker
+brew install --cask discord
